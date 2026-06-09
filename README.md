@@ -20,3 +20,18 @@ Sistema de seguridad desarrollado en Python diseñado para procesar múltiples f
 1. Clonar este repositorio:
    ```bash
    git clone [https://github.com/felipeMon20/Sistema_Vigilancia.git](https://github.com/felipeMon20/Sistema_Vigilancia.git)
+
+2. Crear y activar un entorno virtual:
+   ```bash
+   python -m venv venv
+   # En Windows: venv\Scripts\activate
+   # En macOS/Linux: source venv/bin/activate
+
+3. Instalar las dependencias:
+   ```bash
+   pip install -r requirements.txt
+
+Ejecución
+Asegúrese de configurar correctamente los parámetros de entrada en config_multicam.json antes de iniciar el sistema.
+   ```bash
+python main.py
